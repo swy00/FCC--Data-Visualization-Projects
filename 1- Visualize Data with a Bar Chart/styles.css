@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Secular+One');
+
+* {
+    margin: 0;
+    padding: 0; 
+    font-family: Secular One;
+}
+  
+.main {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgrey;
+    background-size: 64px 128px; 
+}
+
+
+.main .container {
+    height: 560px;
+    width: 900px;
+    background-color: rgb(204, 201, 201);
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    align-self: center;
+    position: relative; 
+}
+
+.main .container #title {
+    text-align: center;
+    font-size: 2.5em; 
+}
+.main .container .visHolder {
+    position: absolute;
+    top: 6em; 
+}
+  
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 2px;
+    font: 12px;
+    background: #fff;
+    border-radius: 2px;
+    pointer-events: none; 
+}
+  
+.overlay {
+    position: absolute;
+    background: #fff;
+    pointer-events: none;
+}
+  
+#y-axis path {
+    stroke: black;
+    stroke-width: 1;
+    fill: none; 
+}
+  
+#x-axis path {
+    stroke: black;
+    stroke-width: 1;
+    fill: none; 
+}
+  
+.info {
+    font-size: 0.8em; 
+}
+
+
